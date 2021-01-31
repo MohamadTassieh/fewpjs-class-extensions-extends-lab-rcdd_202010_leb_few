@@ -9,11 +9,11 @@ class Polygon{
 }
 
 get perimeter(){
-  let c=0;
+  let p = 0;
   for(let i=0;i<this.array.length;i++){
-    c+=this.array[i];
+    p+=this.array[i];
   }
-  return c;
+  return p;
 }
 }
 
